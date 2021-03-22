@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Admission Form</title>
+    </head>
+<style>
+    body {
+    background-color : #ffffff;
+    margin: 0;
+    padding: 0;
+    }
+    h1 {
+        color : #000000;
+        text-align : center;
+        font-family: "verdana";
+    }
+    form {
+        width: 300px;
+        margin: 0 auto;
+    }
+    </style>
+    <body>
+        <fieldset>
+            <legend>Admission form </legend>
+            <form name="frmContact" method="post" action="admission.php">
+            <p>
+                <label for="Application_id">Application id : </label>
+                <input type="text" name="Application_id" id="Application_id" required>
+            </p>
+            <p>
+                <label for="First_name">First Name : </label>
+                <input type="text" name="First_name" id="First_name" required>
+            </p>
+            <p>
+                <label for="Last_name">Last Name : </label>
+                <input type="text" name="Last_name" id="Last_name" required>
+            </p>
+            <p>
+                <label for="mail">Email : </label>
+                <input type="email" name="mail" id="mail" required>
+            </p>
+            <p>
+                <label for="gender">Gender : </label>
+                <input type="radio" name="gender" id="Male" value="Male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="Female" value="Female">
+                <label for="gender">Female</label>
+            </p>
+            <p>
+                <label for="phone_num">Phone Number : </label>
+                <input type="text" name="phone_num" id="phone_num">
+            </p>
+            <p>&nbsp;</p>
+            <p>
+                <input type="submit" name="Submit" id="Submit" value="Submit">
+            </p>
+            </form>
+        </fieldset>
+    </body>
+</html>
