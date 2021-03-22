@@ -4,7 +4,7 @@
 
 <ul>
   <li>Install mysql-connector-python using pip/conda.</li>
-  <li><a href="https://anaconda.org/anaconda/mysql-connector-python">Link to install mysql-connector-python via conda.</a></li>
+  <li><a href="https://anaconda.org/anaconda/mysql-connector-python" target="_blank">Link to install mysql-connector-python via conda.</a></li>
   <li>Create a database in your wamp server.</li>
 </ul>
 
