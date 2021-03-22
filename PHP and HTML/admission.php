@@ -1,7 +1,7 @@
 <?php
 // database connection code
 
-$con = mysqli_connect("localhost", "root","","university");
+$con = mysqli_connect("localhost", "root","","miniproject");
 
 // get the post records
 $application_id = $_POST['Application_id'];
