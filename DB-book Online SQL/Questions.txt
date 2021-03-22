@@ -1,0 +1,9 @@
+1. What are the courses that require prerequisites?
+
+2. Who are the instructors without teaching any students?
+
+3. Write a query to get the students who have enrolled in CS related courses.
+
+4. How many students are there in each department?
+
+5. Find the number of courses each student has enrolled in.
